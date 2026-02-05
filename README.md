@@ -17,6 +17,7 @@ Train a tiny linear regression model on synthetic data:
 ```bash
 python3 scripts/train_linreg.py --steps 200 --lr 0.1 --seed 0 --out runs/demo.jsonl
 python3 scripts/analyze_metrics.py --path runs/demo.jsonl
+python3 scripts/evaluate_linreg.py --path runs/demo.jsonl
 ```
 
 Run tests (uses built-in `unittest`):
