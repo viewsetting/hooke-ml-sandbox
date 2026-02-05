@@ -5,7 +5,7 @@
 
 ## Steps
 
-1. [x] Create `scripts/evaluate_linreg.py` — reads a metrics.jsonl via `--path` arg, prints `min_loss` and `last_loss`. Uses only stdlib (`json`, `argparse`, `sys`, `pathlib`). Follow existing code style from `analyze_metrics.py`.
+1. [x] Create `scripts/evaluate_linreg.py` — reads a metrics.jsonl via `--path` arg, prints `min_loss` and `last_loss`. Uses only stdlib. Follow existing code style from `analyze_metrics.py`.
 2. [x] Update `README.md` — add evaluate usage example in the Quickstart section.
 3. [x] Run `python3 scripts/run_tests.py` — verify all tests pass.
 4. [x] Commit and push to branch, open PR.
